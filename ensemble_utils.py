@@ -10,7 +10,7 @@ from keras.utils import np_utils
 from sklearn.preprocessing import LabelEncoder
 from keras.utils.np_utils import to_categorical
 from tensorflow.keras.optimizers import RMSprop,Adam
-import keras
+from tensorflow import keras 
 from tensorflow.keras import layers
 from keras.models import Model
 
