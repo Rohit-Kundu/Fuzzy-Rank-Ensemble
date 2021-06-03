@@ -22,4 +22,5 @@ To run the ensemble framework on cervical cytology data, download the data and f
 
 ```
 Then, run the code using the command prompt as follows:
+
 `python main.py --data_directory "data" --epochs 20`
