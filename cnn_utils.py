@@ -98,7 +98,7 @@ def DenseNet(train_imgs,train_labels,class_no,num_epochs=20):
   layer = keras.layers.Dense(units=128,activation='relu')(layer)
   layer = keras.layers.Dense(units=class_no,activation='softmax')(layer)
   model = keras.models.Model(densenet_model.input, outputs=layer)
-  model.compile(optimizer = keras.optimizers.RMSprop(lr=2e-5),loss='categorical_crossentropy',metrics=['acc'])
+  model.compile(optimizer = keras.optimizers.RMSprop(learning_rate=2e-5),loss='categorical_crossentropy',metrics=['acc'])
 
   history = model.fit(train_imgs, train_labels, batch_size=32, epochs=num_epochs,verbose=1)
   print("------------------------------------------------------------------------------------------")
@@ -117,7 +117,7 @@ def Inception(train_imgs,train_labels,class_no,num_epochs=20):
   x = layers.Dense(64,activation='relu')(x)
   x = layers.Dense(class_no,activation='softmax')(x)
   model3 = Model(pre_trained_model2.input,x)
-  model3.compile(optimizer = RMSprop(lr=2e-5),loss='categorical_crossentropy',metrics=['acc'])
+  model3.compile(optimizer = RMSprop(learning_rate=2e-5),loss='categorical_crossentropy',metrics=['acc'])
   history = model3.fit(x=train_imgs,y=train_labels, epochs = num_epochs, batch_size = 32,verbose=0)
   print("-----------------------------------------------------------------------------------------")
   return model3
@@ -133,7 +133,7 @@ def Xception(train_imgs,train_labels,class_no,num_epochs=20):
   x = layers.Dense(32,activation='relu')(x)
   x = layers.Dense(class_no,activation='softmax')(x)
   model1 = Model(pre_trained_model.input,x)
-  model1.compile(optimizer = RMSprop(lr=2e-5),loss='categorical_crossentropy',metrics=['acc'])
+  model1.compile(optimizer = RMSprop(learning_rate=2e-5),loss='categorical_crossentropy',metrics=['acc'])
   history = model1.fit(x=train_imgs,y=train_labels, epochs = num_epochs, batch_size = 32, verbose=0)
   print("------------------------------------------------------------------------------------------")
   return model1
