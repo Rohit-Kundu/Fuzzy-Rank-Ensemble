@@ -21,6 +21,6 @@ To run the ensemble framework on cervical cytology data, download the data and f
 +-- main.py
 
 ```
-Then, run the code using the command prompt as follows:
+Then, run the code (5-fold cross-validation will be automatically performed) using the command prompt as follows:
 
-`python main.py --data_directory "data" --epochs 20`
+`python main.py --data_directory "data/" --epochs 20`
