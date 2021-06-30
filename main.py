@@ -30,7 +30,7 @@ args = parser.parse_args()
 
 path1 = args.data_directory
 if path1[-1]=='/':
-  path = path[:-1]
+  path1 = path1[:-1]
 
 num_epochs = args.epochs
 
