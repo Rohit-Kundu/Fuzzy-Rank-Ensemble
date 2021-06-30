@@ -6,7 +6,7 @@ To install the required dependencies run the following in command prompt:
 `pip install -r requirements.txt`
 
 # Running the codes:
-To run the ensemble framework on cervical cytology data, download the data and follow the following directory structure:
+To run the ensemble framework on cervical cytology data, download the data and follow the following directory structure (Note: Any number of classes can be present in the dataset. It will be captured by the code automatically):
 
 ```
 
