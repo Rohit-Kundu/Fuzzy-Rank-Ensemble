@@ -31,7 +31,7 @@ Then, run the code (5-fold cross-validation will be automatically performed) usi
 
 If this repository helps you in any way, consider citing our paper as follows:
 ```
-@inproceedings{manna2021fuzzy,
+@article{manna2021fuzzy,
   title={A Fuzzy Rank-based Ensemble of CNN Models for Classification of Cervical Cytology},
   author={Manna, Ankur and Kundu, Rohit and Sarkar, Ram},
   journal={Scientific Reports},
