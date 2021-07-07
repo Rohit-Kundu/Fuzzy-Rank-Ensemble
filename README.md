@@ -26,3 +26,16 @@ To run the ensemble framework on cervical cytology data, download the data and f
 Then, run the code (5-fold cross-validation will be automatically performed) using the command prompt as follows:
 
 `python main.py --data_directory "data/" --epochs 20`
+
+## Citation
+
+If this repository helps you in any way, consider citing our paper as follows:
+```
+@inproceedings{manna2021fuzzy,
+  title={A Fuzzy Rank-based Ensemble of CNN Models for Classification of Cervical Cytology},
+  author={Manna, Ankur and Kundu, Rohit and Sarkar, Ram},
+  journal={Scientific Reports},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+```
