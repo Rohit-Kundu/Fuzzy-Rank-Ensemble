@@ -1,5 +1,5 @@
 # Fuzzy-Rank-Ensemble
-Based on our paper on "A Fuzzy Rank-based Ensemble of CNN Models for Classification of Cervical Cytology" accepted for publication in Nature- Scientific Reports.
+Based on our paper on ["A Fuzzy Rank-based Ensemble of CNN Models for Classification of Cervical Cytology"](https://www.nature.com/articles/s41598-021-93783-8#article-info) published in Nature- Scientific Reports.
 
 # Requirements
 To install the required dependencies run the following in command prompt:
