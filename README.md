@@ -1,3 +1,4 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-fuzzy-rank-based-ensemble-of-cnn-models-for/image-classification-on-sipakmed)](https://paperswithcode.com/sota/image-classification-on-sipakmed?p=a-fuzzy-rank-based-ensemble-of-cnn-models-for)
 # Fuzzy-Rank-Ensemble
 Based on our paper on ["A Fuzzy Rank-based Ensemble of CNN Models for Classification of Cervical Cytology"](https://www.nature.com/articles/s41598-021-93783-8#article-info) published in Nature- Scientific Reports.
 
