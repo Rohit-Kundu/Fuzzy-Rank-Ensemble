@@ -19,8 +19,8 @@ from sklearn import model_selection
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import classification_report,confusion_matrix
 
-from cnn_utils import *
-from ensemble_utils import *
+from utils.utils_cnn import *
+from utils.utils_ensemble import *
 import argparse
 
 parser = argparse.ArgumentParser()
