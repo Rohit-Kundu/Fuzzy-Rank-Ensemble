@@ -21,8 +21,10 @@ To run the ensemble framework on cervical cytology data, download the data and f
 |   +-- class2
 |   +-- class3
 |   +-- class4
-+-- cnn_utils.py
-+-- ensemble_utils.py
++-- utils
+|   +-- .
+|   +-- utils_cnn
+|   +-- utils_ensemble
 +-- main.py
 
 ```
